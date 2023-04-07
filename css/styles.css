@@ -1,0 +1,184 @@
+
+body {
+   font-family: "Montserrat-Black"; 
+   text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+
+   font-family: "Montserrat-Bold";
+}
+
+p {
+    color: red;
+}
+
+/* Heading  */
+
+.heading-1 {
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+/* Containers */
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+/* section */
+.colored-section {
+     background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section {
+    background-color: #fff;    
+}
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;   
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montsorrat-light";
+}
+
+/* Download button */
+
+.download-button {
+    margin: 5% 3% 5% 0 ;
+}
+
+
+/* Title Section  */
+
+#title {
+   
+    text-align: left;
+}
+#title.container-fluid {
+    padding: 3% 10% 7%;
+}
+/* Tittle Image */
+
+.title-image {
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 20%;  
+}
+
+/* Features section */
+
+#features {
+    
+    position: relative; 
+}
+.heading-feature {
+     font-size: 1.5rem;
+}
+
+.feature-box { 
+   padding: 5%;
+}
+ 
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+/* Testimonials Section */
+
+#testimonials {
+    background-color: #ff4c68;
+     
+}
+
+
+.heading-testimonial {
+    font-size: 3.5rem;
+    line-height: 1.5;
+
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 5%;
+}
+
+#press {
+    padding-bottom: 3%;
+    
+}
+
+.press-logo {
+    width: 15%;
+    margin: 30px 30px 50px;
+}
+
+/* Pricing section */
+
+#pricing {
+    padding: 10% ;
+}
+
+.heading-price {
+    font-size: 3.5rem;
+    line-height: 1.5;
+
+}
+.pricing-column {
+   padding: 3% 2%; 
+}
+
+ /* Call to action section */
+
+ #cta {
+    background-color: #ff4c6769;
+    
+ }
+ 
+
+ .social-icon {
+    margin: 20px 10px;
+
+ }
+
+@media (max-width: 1028px) {
+
+    #tittle {
+        text-align: center;
+
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        
+    }
+}
+
+
